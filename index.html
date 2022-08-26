@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cotainer">
+      <h1>Flash cards</h1>
+      <button id="add_question" class="add_question">Add  <b>question</b> </button>
+      <form action="#" id="former" class="former">
+        <svg
+          id="svg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48px"
+          height="48px"
+        >
+          <path
+            fill="#F44336"
+            d="M21.5 4.5H26.501V43.5H21.5z"
+            transform="rotate(45.001 24 24)"
+          />
+          <path
+            fill="#F44336"
+            d="M21.5 4.5H26.5V43.501H21.5z"
+            transform="rotate(135.008 24 24)"
+          />
+        </svg>
+        <label for="ques">Question</label>
+        <textarea type="text" id="ques" class="user-box" ></textarea>
+        <label for="answer">Answer</label>
+        <textarea type="text" id="answer" class="user-box"></textarea>
+        <input type="submit" name="submit" id="submit" value="Save" />
+      </form>
+      <div id="shower">
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

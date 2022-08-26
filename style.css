@@ -1,0 +1,90 @@
+*{
+    text-shadow: 0 0 3px beige;
+    border-radius: 8px;
+    box-shadow: 0 0 3px blueviolet;
+}
+.former{
+    display: none;
+}
+.n_answer{
+    display: none;
+}
+.cotainer{
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+h1{
+    background-color: rgb(110, 110, 255);
+}
+
+.add_question{
+    display: block;
+    margin: auto;
+    width: 40%;
+    background-color: rgb(110, 110, 255);
+    color: aliceblue;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.former{
+    display: inline-flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.former textarea {
+    width: 80%;
+    font-size: x-large;
+}
+.former label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.former input[type = "submit"]{
+    width: 40%;
+    background-color: rgb(110, 110, 255);
+    color: aliceblue;
+    font-size: xx-large;
+    cursor: pointer;
+
+}
+svg{
+    align-self: flex-end;
+    cursor: pointer;
+}
+.former *{
+    margin: 5px;
+}
+
+.gen_div{
+    border: 1px solid black;
+    width: 25%;
+    margin-top: 10px;
+}
+.gen_div button{
+    width: 40%;
+    background-color: rgb(110, 110, 255);
+    color: aliceblue;
+    cursor: pointer;
+}
+.gen_div *{
+    margin: 5px;
+}
+#shower{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:5px
+}
+
+.hide_answer{
+    cursor: pointer;
+}
